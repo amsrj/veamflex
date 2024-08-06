@@ -1,0 +1,58 @@
+/* Reset */
+body, p {
+  margin: unset;
+  padding: unset;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* Layouts */
+.l_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  box-shadow: inset 0 0 4px red;
+}
+
+/* Typography */
+:root {
+  font-family: arial;
+}
+
+/* Components */
+body {
+  color: #999;
+  background-color: #111;
+}
+
+.header {
+  background-color: #555;
+}
+
+.header-inside {
+  box-shadow: inset 0 0 20px blue;
+  display: flex;
+  align-items: center;
+  height: 180px;
+}
+
+.logo {
+  box-shadow: inset 0 0 20px red;
+  width: 200px;
+}
+.description {
+  box-shadow: inset 0 0 20px red;
+}
+.anger {
+  width: 140px;
+  box-shadow: inset 0 0 20px red;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.contents {
+  background-color: #000;
+}
