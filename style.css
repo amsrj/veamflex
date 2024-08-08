@@ -32,6 +32,23 @@ img {
   box-shadow: inset 0 0 4px red;
 }
 
+.l_row {
+  background-color: yellow;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.l_col {
+  background-color: orange;
+  width: 150px;
+}
+
+.card {
+  background-color: dodgerblue;
+  color: black;
+}
+
 /* Typography */
 :root {
   font-family: arial;
