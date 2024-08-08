@@ -36,15 +36,19 @@ img {
   background-color: yellow;
   display: flex;
   row-gap: 20px;
-  column-gap: 20px;
   flex-wrap: wrap;
+
+  /* 이거 못씀 
+  column-gap: 20px;
+  */
 }
 
 .l_col {
   background-color: orange;
 
-  /* ( column-gap의 갯수 * column-gap 수차 ) / column 갯수 */
-  width: calc( 33.333333% - ( ( 20px * 2 ) / 3 ) );
+  width: calc( 100% / 3 );
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .card {
