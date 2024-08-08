@@ -107,6 +107,22 @@ body {
 
 .category h2 {
   margin-bottom: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.category h2::before {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  background-image: url(images/icon-sprite.png);
+  background-position-x: -30px;
+}
+
+.category h2:hover::before {
+  background-position-y: -30px;
 }
 
 .category-item {
@@ -119,6 +135,7 @@ body {
   padding: 8px 10px;
   font-size: 14px;
 }
+
 
 .category-sub {
   font-size: 12px;
