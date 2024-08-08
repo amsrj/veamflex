@@ -35,17 +35,21 @@ img {
 .l_row {
   background-color: yellow;
   display: flex;
-  gap: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
   flex-wrap: wrap;
 }
 
 .l_col {
   background-color: orange;
-  width: 150px;
+
+  /* ( column-gap의 갯수 * column-gap 수차 ) / column 갯수 */
+  width: calc( 33.333333% - ( ( 20px * 2 ) / 3 ) );
 }
 
 .card {
   background-color: dodgerblue;
+  box-shadow: inset 0 0 10px red;
   color: black;
 }
 
