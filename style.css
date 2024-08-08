@@ -212,6 +212,11 @@ body {
   margin-bottom: 12px;
 }
 
+.card-contents p {
+  min-height: 200px;
+  box-shadow: inset 0 0 20px blue;
+}
+
 .card-controls {
   padding: 10px;
 }
