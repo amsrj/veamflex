@@ -34,9 +34,9 @@ img {
 
 .l_row {
   display: flex;
-  row-gap: 20px;
+  row-gap: 8px;
   flex-wrap: wrap;
-  margin: 0 -10px;
+  margin: 0 -4px;
 
   /* 이거 못씀 
   column-gap: 20px;
@@ -45,7 +45,7 @@ img {
 
 .l_col {
   width: calc( 100% / 3 );
-  padding: 0 10px;
+  padding: 0 4px;
   box-sizing: border-box;
 }
 
