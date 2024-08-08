@@ -69,8 +69,17 @@ img {
 
 /* Commons */
 .button {
-  background-color: #111;
+  background-color: black;
   color: red;
+  display: block;
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-indent: 0.2em;
+  font-weight: 600;
+  border-radius: 6px;
 }
 
 /* Components */
