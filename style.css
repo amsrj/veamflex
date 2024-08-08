@@ -1,7 +1,22 @@
 /* Reset */
-body, p {
+body, p, ul {
   margin: unset;
   padding: unset;
+}
+
+h1, h2, h3 {
+  margin: unset;
+  font-size: unset;
+  font-weight: unset;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
 }
 
 img {
