@@ -81,10 +81,12 @@ body {
 .container-main {
   box-shadow: inset 0 0 30px dodgerblue;
   flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
 }
 
 .container-sidebar {
   box-shadow: inset 0 0 30px orangered;
-  flex-basis: 168px;
+  width: 168px;
   height: 340px;
 }
