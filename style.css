@@ -67,6 +67,12 @@ img {
   font-family: arial;
 }
 
+/* Commons */
+.button {
+  background-color: #111;
+  color: red;
+}
+
 /* Components */
 body {
   color: #999;
@@ -188,7 +194,6 @@ body {
 }
 
 .card-contents {
-  box-shadow: inset 0 0 20px red;
   padding: 20px;
   color: #999;
 }
@@ -199,7 +204,6 @@ body {
 }
 
 .card-controls {
-  box-shadow: inset 0 0 20px blue;
   padding: 10px;
 }
 
