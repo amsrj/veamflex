@@ -47,7 +47,18 @@ img {
   width: calc( 100% / 3 );
   padding: 0 12px;
   box-sizing: border-box;
+
+  box-shadow: inset 0 0 20px orangered;
 }
+
+/*
+  자식 컴포넌트가 그 어떤게 들어간다 하더라도 height: 100%가 되게 
+  .l_col > * {
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+  }
+*/
 
 .l_col_12_12 { width: 100%; }
 .l_col_11_12 { width: 91.66666667%; }
@@ -196,6 +207,7 @@ body {
 .card {
   background-color: #222;
   color: black;
+  height: 100%;
 }
 
 .card-cover {
