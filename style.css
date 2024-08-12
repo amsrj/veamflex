@@ -28,8 +28,6 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-
-  box-shadow: inset 0 0 4px red;
 }
 
 .l_row {
@@ -47,8 +45,6 @@ img {
   width: calc( 100% / 3 );
   padding: 0 12px;
   box-sizing: border-box;
-
-  box-shadow: inset 0 0 20px orangered;
 }
 
 /*
@@ -132,7 +128,6 @@ body {
 
 .anger {
   width: 140px;
-  box-shadow: inset 0 0 20px red;
   margin-left: auto;
   margin-top: auto;
 }
@@ -208,6 +203,8 @@ body {
   background-color: #222;
   color: black;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-cover {
@@ -217,6 +214,7 @@ body {
 .card-contents {
   padding: 20px;
   color: #999;
+  flex-grow: 1;
 }
 
 .card-contents h2 {
@@ -226,7 +224,6 @@ body {
 
 .card-contents p {
   min-height: 200px;
-  box-shadow: inset 0 0 20px blue;
 }
 
 .card-controls {
